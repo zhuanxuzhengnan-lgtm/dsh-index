@@ -1,26 +1,53 @@
 {
   "format": 1,
-  "title": { "en": "My DSH plugin index", "zh": "我的 DSH 插件索引" },
+  "title": {
+    "en": "DONG's DSH plugin index",
+    "zh": "DONG 的 DSH 插件索引"
+  },
   "description": {
-    "en": "Example plugin index read by the DSH Discover tab.",
-    "zh": "DSH「发现」页读取的示例插件索引。"
+    "en": "Plugin index read by the DSH Discover tab.",
+    "zh": "DSH「发现」页读取的插件索引。"
   },
   "metadata": {
     "categories": {
-      "collaboration": { "title": { "en": "Collaboration", "zh": "协作" } },
-      "voice": { "title": { "en": "Voice", "zh": "语音" } }
+      "collaboration": {
+        "title": {
+          "en": "Collaboration",
+          "zh": "协作"
+        }
+      },
+      "voice": {
+        "title": {
+          "en": "Voice",
+          "zh": "语音"
+        }
+      }
     },
     "labels": {
-      "experimental": { "title": { "en": "Experimental", "zh": "实验性" } }
+      "experimental": {
+        "title": {
+          "en": "Experimental",
+          "zh": "实验性"
+        }
+      }
     },
     "sortKeys": {
-      "popularity": { "title": { "en": "Popularity", "zh": "热度" }, "order": "desc" }
+      "popularity": {
+        "title": {
+          "en": "Popularity",
+          "zh": "热度"
+        },
+        "order": "desc"
+      }
     }
   },
   "plugins": [
     {
       "name": "@deepseek-ai/dsh-experimental-agent-team-profile",
-      "title": { "en": "Agent Teams", "zh": "智能体团队" },
+      "title": {
+        "en": "Agent Teams",
+        "zh": "智能体团队"
+      },
       "description": {
         "en": "Agent Teams collaboration, tools, and Web UI in one experimental bundle.",
         "zh": "智能体团队协作、工具与 Web 界面（实验性）。"
@@ -29,22 +56,37 @@
       "homepage": "https://github.com/deepseek-ai/deepseek-harness",
       "metadata": {
         "category": "collaboration",
-        "labels": ["experimental"],
-        "keywords": ["agents", "team", "multi-agent"],
-        "sortKeys": { "popularity": 90 }
+        "labels": [
+          "experimental"
+        ],
+        "keywords": [
+          "agents",
+          "team",
+          "multi-agent"
+        ],
+        "sortKeys": {
+          "popularity": 90
+        }
       },
       "versions": [
         {
           "version": "0.2.2-rc.1",
           "publishTimestamp": 1793783508,
-          "source": { "type": "npm" },
-          "engines": { "dsh": ">=0.2.2-rc.1 <0.3.0" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
         }
       ]
     },
     {
       "name": "@deepseek-ai/dsh-experimental-voice-input-bundle",
-      "title": { "en": "Voice Input", "zh": "语音输入" },
+      "title": {
+        "en": "Voice Input",
+        "zh": "语音输入"
+      },
       "description": {
         "en": "Experimental voice input with local SenseVoice speech recognition.",
         "zh": "基于本地 SenseVoice 的语音输入（实验性）。"
@@ -53,16 +95,62 @@
       "homepage": "https://github.com/deepseek-ai/deepseek-harness",
       "metadata": {
         "category": "voice",
-        "labels": ["experimental"],
-        "keywords": ["voice", "speech-to-text"],
-        "sortKeys": { "popularity": 70 }
+        "labels": [
+          "experimental"
+        ],
+        "keywords": [
+          "voice",
+          "speech-to-text"
+        ],
+        "sortKeys": {
+          "popularity": 70
+        }
       },
       "versions": [
         {
           "version": "0.2.2-rc.1",
           "publishTimestamp": 1793783508,
-          "source": { "type": "npm" },
-          "engines": { "dsh": ">=0.2.2-rc.1 <0.3.0" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@local/tech-theme",
+      "title": {
+        "en": "Tech Theme",
+        "zh": "深空科技主题"
+      },
+      "description": {
+        "en": "Deep-space tech palette skin for the DSH Web interface.",
+        "zh": "DSH Web 界面的深空科技配色皮肤。"
+      },
+      "author": "DONG",
+      "icon": "plugins/tech-theme/icon.svg",
+      "metadata": {
+        "keywords": [
+          "theme",
+          "skin",
+          "ui"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794297193,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/zhuanxuzhengnan-lgtm/dsh-index",
+            "commit": "529be71a1254ca93dcd93cbb6ca419cbb40034cf",
+            "path": "plugins/tech-theme"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
         }
       ]
     }
