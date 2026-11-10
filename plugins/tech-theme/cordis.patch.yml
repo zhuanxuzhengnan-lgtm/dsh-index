@@ -1,0 +1,3 @@
+- insert:
+    - id: tech-theme
+      name: '@local/tech-theme'

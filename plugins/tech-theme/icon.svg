@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="tech-theme-icon-stroke" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#3d8bfd"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="#070d16" stroke="url(#tech-theme-icon-stroke)" stroke-width="2"/>
+  <path d="M32 13 L46 21 V37 L32 45 L18 37 V21 Z" fill="none" stroke="url(#tech-theme-icon-stroke)" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M32 22 V36 M24 27 H40" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="32" cy="22" r="3" fill="#22d3ee"/>
+  <circle cx="32" cy="36" r="3" fill="#3d8bfd"/>
+  <circle cx="24" cy="27" r="3" fill="#3d8bfd"/>
+  <circle cx="40" cy="27" r="3" fill="#3d8bfd"/>
+</svg>
